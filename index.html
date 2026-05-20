@@ -4,30 +4,34 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>z2club</title>
+    <meta name="description" content="Z2CLUB — Run Club Paris." />
+    <title>Z2CLUB — Run Club Paris</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500&family=Oswald:wght@600;700&family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header id="header">
-      <nav class="nav">
-        <a href="/" class="logo">z2club</a>
-        <ul class="nav-links">
-          <li><a href="#accueil">Accueil</a></li>
-          <li><a href="#about">À propos</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+      <div class="nav">
+        <a href="/" class="wordmark" aria-label="Z2CLUB — retour à l'accueil">Z2CLUB</a>
+      </div>
     </header>
 
-    <main id="app">
-      <section id="accueil" class="hero">
-        <h1>z2club</h1>
-        <p class="tagline">Bienvenue sur z2club</p>
+    <main>
+      <section class="hero" aria-label="Accueil">
+        <div class="hero__inner">
+          <h1 class="hero__headline">
+            <span class="line">VA</span>
+            <span class="line line--accent">PAS</span>
+            <span class="line">TROP VITE.</span>
+          </h1>
+          <p class="hero__sub">Run Club Paris</p>
+        </div>
       </section>
     </main>
-
-    <footer id="footer">
-      <p>&copy; 2026 z2club</p>
-    </footer>
 
     <script type="module" src="/src/main.js"></script>
   </body>
