@@ -31,7 +31,49 @@
           <p class="hero__sub">Run Club Paris</p>
         </div>
       </section>
+
+      <section class="manifesto" aria-label="Manifeste">
+        <div class="manifesto__inner">
+          <p class="manifesto__text">
+            Tu n'as pas besoin d'aller <span class="manifesto__accent">vite.</span><br>
+            Tu as besoin de <span class="manifesto__accent">durer.</span><br>
+            On court avec toi.
+          </p>
+        </div>
+      </section>
+
+      <section class="capture" aria-label="Rester dans la boucle">
+        <div class="capture__inner">
+          <p class="capture__label">RESTE DANS LA BOUCLE</p>
+          <form class="capture__form" id="capture-form" novalidate>
+            <input
+              class="capture__input"
+              type="email"
+              name="email"
+              placeholder="ton@email.com"
+              autocomplete="email"
+              required
+              aria-label="Adresse email"
+            />
+            <button class="capture__btn" type="submit">REJOINDRE</button>
+          </form>
+          <p class="capture__confirm" id="capture-confirm" hidden aria-live="polite">Bienvenue dans la boucle.</p>
+          <p class="capture__confirm capture__confirm--error" id="capture-error" hidden aria-live="polite">Une erreur est survenue.</p>
+        </div>
+      </section>
     </main>
+
+    <footer class="footer">
+      <a class="footer__social" href="https://instagram.com/z2club" target="_blank" rel="noopener noreferrer" aria-label="Instagram Z2CLUB">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+        </svg>
+      </a>
+      <span class="footer__brand">Z2CLUB</span>
+      <span class="footer__location">Paris · Zone 2</span>
+    </footer>
 
     <script type="module" src="/src/main.js"></script>
   </body>

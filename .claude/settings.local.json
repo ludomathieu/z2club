@@ -7,7 +7,11 @@
       "Bash(git commit -m ' *)",
       "Bash(npm run *)",
       "Bash(node *)",
-      "Bash(npx playwright *)"
+      "Bash(npx playwright *)",
+      "Bash(chromium-cli screenshot *)",
+      "Read(//private/tmp/**)",
+      "Bash(npm init *)",
+      "Bash(pkill -f \"vite --port 5174\")"
     ]
   }
 }
