@@ -11,7 +11,18 @@
       "Bash(chromium-cli screenshot *)",
       "Read(//private/tmp/**)",
       "Bash(npm init *)",
-      "Bash(pkill -f \"vite --port 5174\")"
+      "Bash(pkill -f \"vite --port 5174\")",
+      "Bash(python3 -c \"from PIL import Image, ImageDraw, ImageFont; print\\('pillow ok'\\)\")",
+      "Bash(python3 -c \"import urllib.request; print\\('urllib ok'\\)\")",
+      "Bash(pip3 install *)",
+      "Bash(curl -sL \"https://github.com/googlefonts/OswaldFont/raw/refs/heads/main/fonts/ttf/Oswald-Bold.ttf\" -o Oswald-Bold.ttf)",
+      "Bash(curl -sL \"https://github.com/googlefonts/spacemono/raw/refs/heads/main/fonts/SpaceMono-Regular.ttf\" -o SpaceMono-Regular.ttf)",
+      "Bash(python3 *)",
+      "Bash(curl -sL \"https://fonts.google.com/download?family=Space+Mono\" -o SpaceMono.zip)",
+      "Bash(unzip -o SpaceMono.zip \"*.ttf\" -d SpaceMono)",
+      "Read(//tmp/**)",
+      "Bash(curl -sL --user-agent Mozilla/5.0 https://github.com/googlefonts/spacemono/raw/main/fonts/SpaceMono-Regular.ttf -o SpaceMono-Regular.ttf)",
+      "Bash(curl -sL \"https://fonts.gstatic.com/s/spacemono/v17/i7dPIFZifjKcF5UAWdDRUEY.ttf\" -o SpaceMono-Regular.ttf)"
     ]
   }
 }
